@@ -17,9 +17,14 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'List',
+      title: 'list',
       url: '/list',
       icon: 'list'
+    },
+    {
+      title: 'button',
+      url: '/button',
+      icon: 'finger-print'
     }
   ];
 

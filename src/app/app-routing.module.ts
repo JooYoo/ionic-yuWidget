@@ -9,11 +9,15 @@ const routes: Routes = [
   },
   {
     path: 'home',
-    loadChildren: () => import('./home/home.module').then(m => m.HomePageModule)
+    loadChildren: () => import('./page/home/home.module').then(m => m.HomePageModule)
   },
   {
     path: 'list',
-    loadChildren: () => import('./list/list.module').then(m => m.ListPageModule)
+    loadChildren: () => import('./page/list/list.module').then(m => m.ListPageModule)
+  },
+  { 
+    path: 'button', 
+    loadChildren: () => import('./page/button/button.module').then(m=>m.ButtonPageModule)
   }
 ];
 
@@ -23,4 +27,4 @@ const routes: Routes = [
   ],
   exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }
