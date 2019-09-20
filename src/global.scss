@@ -16,7 +16,7 @@
 @import "~@ionic/angular/css/normalize.css";
 @import "~@ionic/angular/css/structure.css";
 @import "~@ionic/angular/css/typography.css";
-@import '~@ionic/angular/css/display.css';
+@import "~@ionic/angular/css/display.css";
 
 /* Optional CSS utils that can be commented out */
 @import "~@ionic/angular/css/padding.css";
@@ -26,25 +26,31 @@
 @import "~@ionic/angular/css/flex-utils.css";
 
 /*global CSS variable*/
-:root{
-    --highlight-color-red:#f7b5c8;
-    --highlight-color-blue: #007bff;
-    --highlight-color-darkblue: #036bda;
-    --highlight-color-white: #fff6da;
-    --highlight-color-gold: #fbc99d;
-  
-    --highlight-color-global: var(--highlight-color-blue);
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  html,
-  body {
-    height: 100%;
-    margin: 0;
-  }
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
-  }
+:root {
+  --color-primary: #007bff;
+  --color-primary-dark: #036bda;
+  --color-easy: #28a745;
+  --color-easy-dark: #238f3c;
+  --color-stress: #dc3545;
+  --color-stress-dark: #ba2d3b;
+  --color-relax: #20c997;
+  --color-relax-dark: #1bab80;
+  --color-attention: #ffc107;
+  --color-attention-dark: #d3a007;
+
+  --color-global: var(--color-primary);
+  --color-global-active: var(--color-primary-dark);
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
