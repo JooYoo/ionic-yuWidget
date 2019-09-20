@@ -1,11 +1,24 @@
+.title__content {
+  padding: 1.5rem;
+  padding-bottom: 0.5rem;
+}
 
-
-.content__card {
+ion-card-header {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
+  flex-wrap: wrap;
+
+  //   & > yu-button + yu-button {
+  //     margin-left: 2rem;
+  //   }
+
+  & yu-button {
+    margin: 1rem;
+  }
 }
 
-.content__card * {
-  margin-left: 3rem;
+ion-card-content {
+  background-color: rgba(216, 216, 216, 0.934);
+  padding-top: 1rem;
 }
