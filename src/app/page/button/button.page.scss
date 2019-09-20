@@ -1,0 +1,9 @@
+.content__card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.content__card * {
+  margin-left: 5rem;
+}

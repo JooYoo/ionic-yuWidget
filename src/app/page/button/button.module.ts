@@ -6,6 +6,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
 import { ButtonPage } from './button.page';
+import { YuButtonModule } from 'src/app/widget/yu-button/yu-button.module';
 
 const routes: Routes = [
   {
@@ -19,7 +20,8 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
+    YuButtonModule
   ],
   declarations: [ButtonPage]
 })
