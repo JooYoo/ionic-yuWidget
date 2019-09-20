@@ -26,6 +26,7 @@
 @import "~@ionic/angular/css/flex-utils.css";
 
 /*global CSS variable*/
+@import '~highlight.js/styles/github.css';
 :root {
   --color-primary: #007bff;
   --color-primary-dark: #036bda;
