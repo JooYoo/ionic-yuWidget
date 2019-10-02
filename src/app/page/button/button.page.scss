@@ -4,8 +4,8 @@ ion-card-header {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  flex-wrap: wrap;
   padding-top: 2rem;
+  overflow: scroll;
 
   //   & > yu-button + yu-button {
   //     margin-left: 2rem;

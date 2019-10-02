@@ -25,6 +25,11 @@ export class AppComponent {
       title: 'button',
       url: '/button',
       icon: 'finger-print'
+    },
+    {
+      title: 'card',
+      url: '/card',
+      icon:''
     }
   ];
 

@@ -15,9 +15,13 @@ const routes: Routes = [
     path: 'list',
     loadChildren: () => import('./page/list/list.module').then(m => m.ListPageModule)
   },
+  {
+    path: 'button',
+    loadChildren: () => import('./page/button/button.module').then(m => m.ButtonPageModule)
+  },
   { 
-    path: 'button', 
-    loadChildren: () => import('./page/button/button.module').then(m=>m.ButtonPageModule)
+    path: 'card', 
+    loadChildren: () => import('./page/card/card.module').then(m=>m.CardPageModule)
   }
 ];
 
